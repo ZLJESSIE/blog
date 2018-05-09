@@ -1,0 +1,57 @@
+body {
+	position: relative;
+}
+.header {
+	height: 60px;
+	width: 100%;
+	background-color: #003399;
+	position: fixed;
+	z-index: 1;
+}
+.navbar-brand {
+	color: white;
+	margin-left: 100px;
+}
+a.navbar-brand:hover {
+	color: #fecd81;
+}
+.navbar-nav {
+	margin-left: 1400px;
+}
+.nav-link {
+	color: white;
+	transition: all 0.5s;
+}
+a.nav-link:hover {
+	color: #FECD81;
+}
+.container {
+	padding: 60px 10px 120px;
+}
+ul.nav-pills {
+	display: list-item;
+	top: 80px;
+	position: fixed;
+	background-color: white;
+}
+ul.nav-pills a {
+	color: #003399;
+}
+div.col-sm-9 div {
+	height: 150px;
+	width: 820px;
+	font-size: 28px;
+}
+div.col-sm-9 a {
+	text-decoration: none;
+}
+div.col-sm-9 a :hover {
+	height: 250px;
+	transition: 0.5s;
+}
+.food {color: #fff; background-color: #fa2163;}
+.shopping {color: #fff; background-color: #673ab7;}
+.journey {color: #fff; background-color: #ff9800;}
+.study-english {color: #fff; background-color: #62b929;}
+.study-computer {color: #fff; background-color: #62b929;}
+
